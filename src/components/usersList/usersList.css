@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+form{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add-user-form input{
+    width: 25%;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form input{
+    width: 25%;
+}
+label{
+    display: flex;
+    align-items: center;
+}
+label input{
+    width: auto;
+}
+select{
+    font-size: 1.2rem;
+}
+.user-item{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.users-action{
+    cursor: pointer;
+    opacity: 0.8;
+}
